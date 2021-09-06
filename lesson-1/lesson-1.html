@@ -4,30 +4,30 @@
 <meta charset="utf-8">
 <title>猜数字</title>
 <script>
-  const number = Math.ceil(Math.random() * 100);
+  const number = Math.floor(Math.random() * 100 + 1);
   // console.log(number);
   const submit = () => {
-    const n = document.getElementById("number").value;
+    const n = document.getElementById('number').value;
     if (isNaN(n) || n < 1 || n > 100 || !Number.isInteger(parseFloat(n))) {
-      alert('请输入 1-100 的整数！');
+      alert('请输入 1~100 的整数！');
       return;
     }
-    if (number != n) {
+    if (n != number) {
       if (n > number) {
         alert('猜大了！');
       } else {
         alert('猜小了！');
       }
-    } else {
-      alert('恭喜你！猜对了！');
+      return;
     }
+    alert('恭喜你！猜对了！');
   }
 </script>
 </head>
 <body>
   <h1>猜数字</h1>
   <p>
-    <input id="number" type="text" placeholder="请输入 1-100 的整数" />
+    <input id="number" type="text" placeholder="请输入 1~100 的整数" />
     <button onclick="submit()">提交</button>
   </p>
 </body>
