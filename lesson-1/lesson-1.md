@@ -125,3 +125,26 @@ return 语句会终止函数的执行并返回函数的值。
 在我们的代码中，return 主要用来终止函数的执行。
 
 试想一下，如果去掉代码中的 return，会发生什么事情？
+
+## 课后拓展
+
+### HTML
+
+这里推荐 2 个学习的网址，菜鸟教程偏重基础，MDN Web Docs 的内容会更全面。
+
+菜鸟教程：https://www.runoob.com/html/html-tutorial.html
+MDN Web Docs: https://developer.mozilla.org/zh-CN/docs/Web/HTML
+
+### JavaScript
+
+同样是菜鸟教程和 MDN Web Docs。
+
+菜鸟教程：https://www.runoob.com/js/js-tutorial.html
+MDN Web Docs: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
+
+### CSS
+
+CSS 也是网页的重要组成部分，它控制着网页的样式，并可以实现一些简单的动画。
+
+菜鸟教程：https://www.runoob.com/css/css-tutorial.html
+MDN Web Docs: https://developer.mozilla.org/zh-CN/docs/Web/CSS
