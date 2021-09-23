@@ -19,7 +19,7 @@ rl.on('line', line => {
     console.log('猜小了！');
   } else {
     console.log('恭喜你！猜对了！');
-    process.exit(0);
+    process.exit();
   }
   rl.prompt();
 });
