@@ -30,6 +30,10 @@ readline 模块提供了一个接口，可以从可读流（例如终端的命�
 
 关于 readline 模块的详细介绍，可以参考 Node.js 中文文档：http://nodejs.cn/api/readline.html
 
+### fs 模块
+
+fs 模块即文件系统（File System）模块。
+
 ### 判断语句
 
 在上节课，我们学习了`if () {}`和`if () {} else {}`两种常用的判断语句。
