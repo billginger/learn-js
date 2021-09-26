@@ -34,6 +34,14 @@ readline 模块提供了一个接口，可以从可读流（例如终端的命�
 
 fs 模块即文件系统（File System）模块。
 
+在我们的代码中，我们主要使用了 fs 模块的 writeFileSync 方法，用来创建一个纯文本文件，文件内容即是底牌。
+
+关于 fs 模块的详细介绍，可以参考 Node.js 中文文档：http://nodejs.cn/api/fs.html
+
+### String()
+
+String() 是 JavaScript 的一个全局函数，把对象的值转换为字符串。
+
 ### 判断语句
 
 在上节课，我们学习了`if () {}`和`if () {} else {}`两种常用的判断语句。

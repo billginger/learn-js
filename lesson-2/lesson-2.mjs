@@ -8,7 +8,7 @@ const rl = createInterface({
 });
 
 const number = Math.floor(Math.random() * 100 + 1);
-const data = number.toString();
+const data = String(number);
 writeFileSync('number.txt', data);
 
 rl.prompt();
