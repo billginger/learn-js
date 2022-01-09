@@ -1,0 +1,32 @@
+/**index.wxss**/
+
+page {
+  padding-top: 54rpx;
+  background-color: #f6f6f6;
+  padding-bottom: 60rpx;
+}
+
+.title {
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #000;
+  font-size: 44rpx;
+  margin-bottom: 40rpx;
+}
+
+.input {
+  margin-bottom: 40rpx;
+  padding: 18rpx 10rpx;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.button {
+  width: 300rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 5px;
+  background-color: #07c160;
+  color: white;
+  text-align: center;
+}

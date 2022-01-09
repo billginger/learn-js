@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">猜数字</view>
+  <input class="input" type="number" maxlength="3" bindinput="onInput" placeholder="请输入 1~100 的整数" value="{{inputValue}}" />
+  <view class="button" bindtap="onSubmit">提交</view>
+</view>

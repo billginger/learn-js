@@ -1,0 +1,1 @@
+"D:\Software\Tencent\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-4gvc031119ba76c4 --n quickstartFunctions --r --project "D:\Workshop\Node\learn-js\lesson-3\app" --report_start --report
